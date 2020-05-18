@@ -36,10 +36,10 @@
 
     <main>
         <?php 
-            for ($i = 0; $i < count($matches); $i++) { ?>
-                <div>
-                    <?php echo $matches[$i][0] ?> <strong><?php echo $matches[$i][2] ?></strong> - <strong><?php echo $matches[$i][3] ?></strong> <?php echo $matches[$i][1] ?>
-                </div>
+        for ($i = 0; $i < count($matches); $i++) { ?>
+            <div>
+                <?php echo $matches[$i][0]; ?> - <?php echo $matches[$i][1]; ?> | <?php echo $matches[$i][2]; ?>-<?php echo $matches[$i][3]; ?> 
+            </div>
         <?php } ?>
     </main>
     
